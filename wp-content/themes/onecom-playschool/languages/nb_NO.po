@@ -1,0 +1,1138 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-10-07 16:34+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+
+#: functions.php:152 functions.php:177
+msgid "Please wait..."
+msgstr "Vennligst vent ..."
+
+#: functions.php:153 functions.php:178
+msgid "Subscribe"
+msgstr "Abonner"
+
+#: functions.php:154 functions.php:179
+#: template-parts/section-contact-form.php:68
+#: template-parts/section-enroll-form.php:117
+msgid "SUBMIT"
+msgstr "Send"
+
+#: functions.php:264
+msgid "Missing Attachment"
+msgstr "Manglende vedlegg"
+
+#: functions.php:296
+msgid "Sidebar"
+msgstr "Sidepanel"
+
+#: functions.php:298
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Legg til widgets her for at de skal vises i sidepanelet."
+
+#: functions.php:306 functions.php:315 functions.php:324
+#: inc/theme_options.php:78 inc/theme_options.php:407 inc/theme_options.php:887
+msgid "Footer"
+msgstr "Bunntekst"
+
+#: functions.php:308 functions.php:317 functions.php:326
+msgid "Add widgets here to appear in your footer."
+msgstr "Legg til widgets her for at de skal vises i bunnteksten."
+
+#: functions.php:334 inc/theme_options.php:74 inc/theme_options.php:179
+#: inc/theme_options.php:595
+msgid "Header"
+msgstr "Overskrift"
+
+#: functions.php:336
+msgid "Add widgets here to appear in your header."
+msgstr "Legg til widgets som skal vises i toppteksten."
+
+#: importer/views/plugin-page.php:35
+msgid ""
+"The easiest way to setup your theme is by importing demo data. It includes "
+"demo posts, pages, images and theme settings. This will allow you to edit "
+"the demo content, instead of creating everything from scratch."
+msgstr ""
+"Den enkleste måten du kan sette opp temaet ditt på, er ved å importere "
+"demodata. Dette inkluderer demoinnlegg, bilder og innstillinger. Dette "
+"sikrer at du kan redigere demoinnlegg, i stedet for å lage alt fra bunnen av."
+
+#: importer/views/plugin-page.php:40
+msgid "When you import demo data, please be aware of the following:"
+msgstr "Når du importerer demodata, bør du huske følgende:"
+
+#: importer/views/plugin-page.php:43
+msgid ""
+"No existing data will be deleted or modified, this includes posts, pages, "
+"categories, images, custom post types or any other data."
+msgstr ""
+"Ingen eksisterende data blir slettet eller endret, dette inkluderer innlegg, "
+"sider, kategorier, bilder, egendefinerte innleggstyper eller annen data."
+
+#: importer/views/plugin-page.php:44
+msgid ""
+"Posts, pages, images, widgets, menus and other theme settings will get "
+"imported."
+msgstr ""
+"Innlegg, sider, bilder, widgets, menyer og andre temainnstillinger blir "
+"importert."
+
+#: importer/views/plugin-page.php:45
+msgid ""
+"It can take a couple of minutes for the import to finish, so please click "
+"the Import button only once."
+msgstr ""
+"Det kan ta et par minutter før importen er fullført. Du må derfor bare "
+"klikke på Importer-knappen én gang."
+
+#: importer/views/plugin-page.php:50
+msgid "Note:"
+msgstr "Merk:"
+
+#: importer/views/plugin-page.php:50
+msgid ""
+"You should only import demo data when making a new website from scratch."
+msgstr ""
+"Du bør kun importere damodata når du oppretter en ny nettside fra grunnen av."
+
+#: importer/views/plugin-page.php:51
+msgid ""
+"Otherwise you might end up mixing the demo data with the existing content on "
+"your website."
+msgstr ""
+"Ellers kan du ende opp med å blande demodata med eksisterende innhold på "
+"nettstedet din."
+
+#: importer/views/plugin-page.php:101 importer/views/plugin-page.php:113
+msgid "Import Demo Data"
+msgstr "Importer demodata"
+
+#: importer/views/plugin-page.php:173
+msgid "Importing, please wait!"
+msgstr "Importerer, vennligst vent!"
+
+#: inc/OCSpamProtection.php:199
+msgid "Please Wait"
+msgstr "Vennligst vent ..."
+
+# This is will be a small text hyperlink given under captcha fields. This will take the site administrator to captcha enable/disable control in customizer.
+#: inc/OCSpamProtection.php:204
+msgid "Captcha Settings"
+msgstr "Captcha-innstillinger"
+
+# This is an error message that becomes visible if someone cannot do their math. You are welcome to change it a bit to make it shorter, for example, "That is not correct, try again".
+# ____________________________
+#: inc/OCSpamProtection.php:351 inc/core_functions.php:422
+msgid "Invalid answer, please try again."
+msgstr "Det var dessverre ikke riktig svar, prøv igjen."
+
+#: inc/OCSpamProtection.php:360 inc/core_functions.php:288
+#: inc/core_functions.php:402 inc/core_functions.php:431
+msgid "Some error occurred, please reload the page and try again."
+msgstr "Det oppsto en feil, vennligst last siden inn på nytt og prøv igjen."
+
+#: inc/OCSpamProtection.php:389 inc/OCSpamProtection.php:393
+msgid " <b>Something went wrong! Please try again!</b>"
+msgstr "Det oppsto en feil. Vennligst prøv igjen."
+
+# This is an error message that becomes visible if someone cannot do their math. You are welcome to change it a bit to make it shorter, for example, "That is not correct, try again".
+# ____________________________
+#: inc/OCSpamProtection.php:395
+msgid "<b>Invalid answer, please try again.</b>"
+msgstr "Det var dessverre ikke riktig svar, prøv igjen."
+
+#
+# Label for CAPTCHA. If the translation becomes too long, leave out "below" or just stick to "Type in the answer".
+#
+# _________________________________
+#: inc/OCSpamProtection.php:405 inc/core_functions.php:465
+msgid "Type in the answer to the sum below:"
+msgstr "Skriv inn svaret nedenfor."
+
+# Enable captcha on comment forms
+#: inc/OCSpamProtection.php:477
+msgid "Enable captcha on comment form"
+msgstr "Aktiver captcha på kommentarskjema"
+
+# Please note that if you are using any spam prevention or captcha plugins for your comment forms then this should be disabled.
+#: inc/OCSpamProtection.php:478
+msgid ""
+"Please note that if you are using any spam prevention or captcha plugins for "
+"your comment forms then disable this."
+msgstr ""
+"Deaktiver denne funksjonen dersom du allerede bruker en annen captcha eller "
+"forebyggende spam-plugginn, for å unngå konflikter."
+
+#: inc/core_functions.php:70 inc/core_functions.php:78
+#: inc/theme_metaboxes.php:799 inc/theme_metaboxes.php:811
+msgid "Text Color"
+msgstr "Tekstfarge"
+
+#: inc/core_functions.php:71
+msgid "Hover Text Color"
+msgstr "Pekefølsom kobling tekstfarge"
+
+#: inc/core_functions.php:72 inc/core_functions.php:79
+#: inc/theme_metaboxes.php:817
+msgid "Background Color"
+msgstr "Bakgrunnsfarge"
+
+#: inc/core_functions.php:73
+msgid "Hover Background Color"
+msgstr "Bakgrunnsfarge"
+
+#: inc/core_functions.php:77 inc/core_functions.php:85
+#: inc/theme_options.php:151
+msgid "Headings Colors"
+msgstr "Overskriftsfarge"
+
+#: inc/core_functions.php:93 inc/core_functions.php:94
+#: inc/core_functions.php:95
+msgid "Logo Text Color"
+msgstr "Farge logotekst"
+
+#: inc/core_functions.php:184 inc/core_functions.php:311
+msgid "Name is empty or too short."
+msgstr "Navn er tomt eller for kort."
+
+#: inc/core_functions.php:188 inc/core_functions.php:315
+msgid "Name is too large."
+msgstr "Navn er for langt."
+
+#: inc/core_functions.php:192 inc/core_functions.php:319
+msgid "Email entered is not valid."
+msgstr "Oppgitt e-post er ikke gyldig."
+
+#: inc/core_functions.php:196 inc/core_functions.php:323
+msgid "Email is too large."
+msgstr "E-post er for lang."
+
+#: inc/core_functions.php:200 inc/core_functions.php:327
+msgid "Message text is empty or too short."
+msgstr "Meldingstekst er tom eller for kort."
+
+#: inc/core_functions.php:204 inc/core_functions.php:331
+msgid "Message is too large, please shorten it."
+msgstr "Melding er for lang, vennligst forkort den."
+
+#: inc/core_functions.php:216 inc/core_functions.php:341
+#: template-parts/section-contact-form.php:31
+#: template-parts/section-enroll-form.php:80
+msgid "Email"
+msgstr "E-post"
+
+#: inc/core_functions.php:220 inc/core_functions.php:346
+#: template-parts/section-contact-form.php:22
+#: template-parts/section-enroll-form.php:22
+msgid "Name"
+msgstr "Navn"
+
+#: inc/core_functions.php:225 inc/core_functions.php:351
+#: template-parts/section-contact-form.php:40
+#: template-parts/section-enroll-form.php:89
+msgid "Message"
+msgstr "Melding"
+
+#: inc/core_functions.php:230 inc/core_functions.php:577
+msgid "Services"
+msgstr "Tjenester"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/core_functions.php:235 template-parts/section-enroll-form.php:31
+msgid "Date"
+msgstr "Dato"
+
+#: inc/core_functions.php:243 inc/core_functions.php:359
+msgid "Contact query from website"
+msgstr "Kontaktskjema dra nettside"
+
+#: inc/core_functions.php:251 inc/core_functions.php:367
+msgid "You received a new message from"
+msgstr "Du har mottatt en ny melding fra"
+
+#: inc/core_functions.php:252 inc/core_functions.php:368
+msgid "via the contact form on"
+msgstr "via kontaktskjemaet på"
+
+#: inc/core_functions.php:253 inc/core_functions.php:369
+#: inc/theme_metaboxes.php:405
+msgid "Contact Details"
+msgstr "Kontaktopplysninger"
+
+#: inc/core_functions.php:284 inc/core_functions.php:398
+msgid "Your message has been successfully sent."
+msgstr "Meldingen din er sendt."
+
+#: inc/core_functions.php:578 inc/core_functions.php:586
+msgid "Service"
+msgstr "Tjeneste"
+
+#: inc/core_functions.php:579
+msgid "New Service"
+msgstr "Ny tjeneste"
+
+#: inc/core_functions.php:580
+msgid "Edit Service"
+msgstr "Rediger tjeneste"
+
+#: inc/core_functions.php:581
+msgid "Update Service"
+msgstr "Oppdater tjeneste"
+
+#: inc/core_functions.php:582
+msgid "View Service"
+msgstr "Vis tjeneste"
+
+#: inc/core_functions.php:583
+msgid "View Services"
+msgstr "Vis tjenester"
+
+#: inc/core_functions.php:587
+msgid "Service Description"
+msgstr "Tjenestebeskrivelse"
+
+#: inc/core_functions.php:613 inc/theme_metaboxes.php:267
+msgid "Events"
+msgstr "Aktivitet"
+
+#: inc/core_functions.php:614 inc/core_functions.php:622
+msgid "Event"
+msgstr "Aktivitet"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/core_functions.php:615
+msgid "New Event"
+msgstr "Se hendelser"
+
+#: inc/core_functions.php:616
+msgid "Edit Event"
+msgstr "Edit Reise"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/core_functions.php:617
+msgid "Update Event"
+msgstr "Oppdater hendelse"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/core_functions.php:618
+msgid "View Event"
+msgstr "Se hendelser"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/core_functions.php:619
+msgid "View Events"
+msgstr "Se hendelser"
+
+#: inc/core_functions.php:623 inc/theme_metaboxes.php:861 inc/widgets.php:199
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: inc/theme_metaboxes.php:27 inc/theme_metaboxes.php:588
+#: inc/theme_metaboxes.php:622 inc/theme_metaboxes.php:841
+#: inc/theme_options.php:814
+msgid "Page Sections"
+msgstr "Sideinndeling"
+
+#: inc/theme_metaboxes.php:37 inc/theme_options.php:273
+msgid "Banner"
+msgstr "Banner"
+
+#: inc/theme_metaboxes.php:42
+msgid "Show Banner"
+msgstr "Vis banner?"
+
+#: inc/theme_metaboxes.php:50
+msgid "Banner Image"
+msgstr "Bannerbilde"
+
+#: inc/theme_metaboxes.php:57
+msgid "Caption Alignment"
+msgstr "Justering av bildetekst"
+
+#: inc/theme_metaboxes.php:66 inc/theme_metaboxes.php:175 inc/widgets.php:207
+msgid "Right"
+msgstr "Høyre"
+
+#: inc/theme_metaboxes.php:70
+msgid "Center"
+msgstr "Midten"
+
+#: inc/theme_metaboxes.php:74 inc/theme_metaboxes.php:179 inc/widgets.php:206
+msgid "Left"
+msgstr "Venstre"
+
+#: inc/theme_metaboxes.php:79
+msgid "Banner Height"
+msgstr "Bannerhøyde"
+
+#: inc/theme_metaboxes.php:80
+msgid "Change the font for this banner"
+msgstr "Endre skrifttype for dette banneret"
+
+#: inc/theme_metaboxes.php:87
+msgid "Auto"
+msgstr "Auto"
+
+#: inc/theme_metaboxes.php:91
+msgid "Full Viewport"
+msgstr "Full visningsport"
+
+#: inc/theme_metaboxes.php:95
+msgid "Custom"
+msgstr "Kolleksjon"
+
+#: inc/theme_metaboxes.php:102
+msgid "Banner Custom Height"
+msgstr "Egendefinert bannerhøyde"
+
+#: inc/theme_metaboxes.php:110
+msgid "Banner Caption - Title"
+msgstr "Bannertekst - tittel"
+
+#: inc/theme_metaboxes.php:118
+msgid "Banner Caption - Subtitle"
+msgstr "Bannertekst - Undertittel"
+
+#: inc/theme_metaboxes.php:126 inc/theme_metaboxes.php:252
+#: inc/theme_metaboxes.php:299 inc/theme_metaboxes.php:568
+#: inc/theme_metaboxes.php:636
+msgid "Button Label"
+msgstr "Knappetikett"
+
+#: inc/theme_metaboxes.php:133 inc/theme_metaboxes.php:259
+#: inc/theme_metaboxes.php:306 inc/theme_metaboxes.php:575
+#: inc/theme_metaboxes.php:643
+msgid "Button Link"
+msgstr "Knappelenke"
+
+#: inc/theme_metaboxes.php:141 inc/theme_metaboxes.php:153
+msgid "Features"
+msgstr "Funksjoner"
+
+#: inc/theme_metaboxes.php:146
+msgid "Show Features"
+msgstr "Vis funksjoner"
+
+#: inc/theme_metaboxes.php:161
+msgid "Title Icon"
+msgstr "Tittelikon"
+
+#: inc/theme_metaboxes.php:167 inc/widgets.php:203
+msgid "Icon Alignment"
+msgstr "Ikonjustering"
+
+#: inc/theme_metaboxes.php:185 inc/theme_metaboxes.php:823
+msgid "Image"
+msgstr "Bilde"
+
+#: inc/theme_metaboxes.php:190 inc/theme_metaboxes.php:228
+#: inc/theme_metaboxes.php:417 inc/theme_metaboxes.php:538
+#: inc/theme_metaboxes.php:596 inc/theme_metaboxes.php:630
+#: inc/theme_metaboxes.php:681 inc/theme_metaboxes.php:708
+#: inc/theme_metaboxes.php:849 inc/theme_metaboxes.php:874
+msgid "Content"
+msgstr "Innhold"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/theme_metaboxes.php:202 inc/theme_metaboxes.php:222
+msgid "Facilities"
+msgstr "Hjelpemidler"
+
+#: inc/theme_metaboxes.php:207 inc/theme_metaboxes.php:273
+#: inc/theme_metaboxes.php:320 inc/theme_metaboxes.php:357
+#: inc/theme_metaboxes.php:398 inc/theme_metaboxes.php:439
+#: inc/theme_metaboxes.php:601 inc/theme_metaboxes.php:657
+#: inc/theme_metaboxes.php:695 inc/theme_metaboxes.php:726
+#: inc/theme_metaboxes.php:777 inc/theme_metaboxes.php:854
+#: inc/theme_metaboxes.php:891
+msgid "Show Section"
+msgstr "Vis inndeling"
+
+#: inc/theme_metaboxes.php:214 inc/theme_metaboxes.php:364
+#: inc/theme_metaboxes.php:740 inc/theme_metaboxes.php:747
+#: inc/theme_metaboxes.php:784 inc/widgets.php:76 inc/widgets.php:186
+msgid "Title"
+msgstr "Tittel"
+
+#: inc/theme_metaboxes.php:234 inc/theme_metaboxes.php:424 inc/widgets.php:190
+msgid "Icon"
+msgstr "Ikon"
+
+#: inc/theme_metaboxes.php:244 inc/theme_metaboxes.php:343
+#: inc/theme_metaboxes.php:733 inc/theme_options.php:132
+#: inc/theme_options.php:186 inc/theme_options.php:414
+msgid "Background"
+msgstr "Bakgrunn"
+
+#: inc/theme_metaboxes.php:281 inc/theme_metaboxes.php:328
+msgid "Section Title"
+msgstr "Inndelingstittel"
+
+#: inc/theme_metaboxes.php:289 inc/theme_metaboxes.php:961
+msgid "Select"
+msgstr ""
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/theme_metaboxes.php:290 inc/theme_metaboxes.php:962
+msgid "Please select the items to be displayed."
+msgstr "Vennligst velg elementene som skal vises"
+
+#: inc/theme_metaboxes.php:314
+msgid "Testimonials"
+msgstr "Kundeevalueringer"
+
+#: inc/theme_metaboxes.php:335
+msgid "Section Content"
+msgstr "Inndelingsinnhold"
+
+#: inc/theme_metaboxes.php:352 inc/theme_metaboxes.php:373
+msgid "Gallery"
+msgstr "Galleri"
+
+#: inc/theme_metaboxes.php:386 inc/theme_metaboxes.php:531
+msgid "Page Section"
+msgstr "Sideinndeling"
+
+#: inc/theme_metaboxes.php:393
+msgid "Contact"
+msgstr "Kontakt"
+
+#: inc/theme_metaboxes.php:411 inc/theme_metaboxes.php:868
+msgid "Information Blocks"
+msgstr "Informasjonsblokker"
+
+#: inc/theme_metaboxes.php:434 inc/theme_metaboxes.php:886
+msgid "Form Section"
+msgstr "Skjemainndeling"
+
+#: inc/theme_metaboxes.php:447 inc/theme_metaboxes.php:899
+msgid "Form Fields Labels"
+msgstr "Etiketter til skjemafelt"
+
+#: inc/theme_metaboxes.php:493 inc/theme_metaboxes.php:970
+msgid "Email Subject"
+msgstr "E-postemne"
+
+#: inc/theme_metaboxes.php:501 inc/theme_metaboxes.php:978
+msgid "Recipients"
+msgstr "Mottakere"
+
+#: inc/theme_metaboxes.php:502 inc/theme_metaboxes.php:979
+msgid "Provide email accounts where you want to receive emails from this form."
+msgstr ""
+"Oppgi e-postkontoer som du vil at dette skjemaet skal sende e-post til."
+
+#: inc/theme_metaboxes.php:509 inc/theme_metaboxes.php:986
+msgid "Custom Form"
+msgstr "Egendefinert skjema"
+
+#: inc/theme_metaboxes.php:510 inc/theme_metaboxes.php:987
+msgid "This will replace the default form."
+msgstr "Dette erstatter standardskjema."
+
+#: inc/theme_metaboxes.php:517 inc/theme_metaboxes.php:994
+msgid "Form Embed Code or Shortcode"
+msgstr "Skjema Embed Code eller Shortcode"
+
+#: inc/theme_metaboxes.php:518 inc/theme_metaboxes.php:995
+msgid ""
+"Please copy and paste the Embed Code or Shortcode of the custom form (if "
+"any). This will replace the default form."
+msgstr ""
+"Kopier og lim inn Embed Code eller Shortcode til det egendefinerte skjemaet "
+"(hvis aktuelt). Dette erstatter standardskjema."
+
+#: inc/theme_metaboxes.php:544
+msgid "Address"
+msgstr "Adresse"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/theme_metaboxes.php:550
+msgid "Schedule"
+msgstr "Fremdriftsplan"
+
+#: inc/theme_metaboxes.php:556 inc/theme_metaboxes.php:562
+msgid "Banner Text"
+msgstr "Bannertekst"
+
+#: inc/theme_metaboxes.php:608
+msgid "Custom Title"
+msgstr "Egendefinert tittel"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/theme_metaboxes.php:651
+msgid "History"
+msgstr "Historie"
+
+#: inc/theme_metaboxes.php:665
+msgid "Show Featured Video"
+msgstr "Vis aktuell video"
+
+#: inc/theme_metaboxes.php:674
+msgid "Video URL"
+msgstr "Video-URL"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/theme_metaboxes.php:690 inc/theme_metaboxes.php:702
+msgid "Timeline"
+msgstr "Tidslinje"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/theme_metaboxes.php:721 inc/theme_metaboxes.php:754
+#: inc/theme_metaboxes.php:760
+msgid "Stats"
+msgstr "Statistikk"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/theme_metaboxes.php:772 inc/theme_metaboxes.php:792
+msgid "Team"
+msgstr "Team"
+
+#: inc/theme_metaboxes.php:805
+msgid "Subtitle"
+msgstr "Undertittel"
+
+#: inc/theme_metaboxes.php:953
+msgid "Services Label"
+msgstr "Tjenestenavn"
+
+#: inc/theme_metaboxes.php:956
+msgid "Select Services"
+msgstr "Velg tjenester"
+
+#: inc/theme_metaboxes.php:1011 inc/theme_options.php:82
+msgid "Layout"
+msgstr "Oppsett"
+
+#: inc/theme_metaboxes.php:1025 inc/theme_options.php:939
+#: inc/theme_options.php:964 inc/theme_options.php:989
+msgid "Right Sidebar"
+msgstr "Høyre sidestolpe"
+
+#: inc/theme_metaboxes.php:1030 inc/theme_options.php:944
+#: inc/theme_options.php:969 inc/theme_options.php:994
+msgid "No Sidebar"
+msgstr "Ingen sidestolpe"
+
+#: inc/theme_metaboxes.php:1035 inc/theme_options.php:949
+#: inc/theme_options.php:974 inc/theme_options.php:999
+msgid "Left Sidebar"
+msgstr "Venstre sidestolpe"
+
+#: inc/theme_options.php:86
+msgid "Social"
+msgstr "Sosiale medier"
+
+#: inc/theme_options.php:90
+msgid "Typography"
+msgstr "Typografi"
+
+#: inc/theme_options.php:94
+msgid "Color Scheme"
+msgstr "Fargevalg"
+
+#: inc/theme_options.php:98
+msgid "Advanced"
+msgstr "Avansert"
+
+#: inc/theme_options.php:102 inc/theme_options.php:1242
+msgid "Import"
+msgstr "Importer"
+
+#: inc/theme_options.php:110
+msgid "Skin - Primary Color"
+msgstr "Skall - Primærfarge"
+
+#: inc/theme_options.php:117
+msgid "Customize Skin"
+msgstr "Egendefinert skall"
+
+#: inc/theme_options.php:118
+msgid ""
+"Custom colors selection may override the Primary and Secondary Skin colors "
+"at some places"
+msgstr ""
+"Egendefinerte fargevalg kan overstyre primære og sekundære skallfarger noen "
+"steder"
+
+#: inc/theme_options.php:126 inc/theme_options.php:678
+#: inc/theme_options.php:684
+msgid "Body"
+msgstr "Brødtekst"
+
+#: inc/theme_options.php:133
+msgid "Body background with image, color, etc."
+msgstr "Bakgrunn med bilde, farge osv."
+
+#: inc/theme_options.php:143
+msgid "Body Text Color"
+msgstr "Brødtekstfarge"
+
+#: inc/theme_options.php:166 inc/theme_options.php:441
+msgid "Link Color"
+msgstr "Lenkefarge"
+
+#: inc/theme_options.php:196
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/theme_options.php:208
+msgid "Menu"
+msgstr "Meny"
+
+#: inc/theme_options.php:215
+msgid "Menu Background Color"
+msgstr "Meny bakgrunnstekst"
+
+#: inc/theme_options.php:225
+msgid "Menu Item Color"
+msgstr "Farge menyelement"
+
+#: inc/theme_options.php:237
+msgid "Menu Item Background Color"
+msgstr "Bakgrunnsfarge menyelement"
+
+#: inc/theme_options.php:249
+msgid "Submenu Item Color"
+msgstr "Farge undermenyelement"
+
+#: inc/theme_options.php:261
+msgid "Submenu Item Background Color"
+msgstr "Bakgrunnsfarge for undermenyelement"
+
+#: inc/theme_options.php:280
+msgid "Homepage Banner - Text Color"
+msgstr "Hjemmeside slideshow - tekst farge"
+
+#: inc/theme_options.php:292
+msgid "Internal Banner - Text Color"
+msgstr "Internt banner - Tekstfarge"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/theme_options.php:302
+msgid "Internal Banner - Background"
+msgstr "Intern fane - bakgrunn"
+
+#: inc/theme_options.php:312 inc/theme_options.php:319
+#: inc/theme_options.php:842
+msgid "Buttons"
+msgstr "Knapper"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/theme_options.php:327 inc/theme_options.php:848
+msgid "Primary Buttons"
+msgstr "Primære knapper"
+
+#: inc/theme_options.php:340 inc/theme_options.php:377
+msgid "Border"
+msgstr "Kantlinjer"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/theme_options.php:348 inc/theme_options.php:385
+msgid "Width"
+msgstr "Bredde"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/theme_options.php:355 inc/theme_options.php:398
+msgid "Radius"
+msgstr "Radius"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/theme_options.php:364 inc/theme_options.php:867
+msgid "Secondary Buttons"
+msgstr "Sekundære knapper"
+
+#: inc/theme_options.php:425 inc/theme_options.php:893 inc/widgets.php:195
+msgid "Heading"
+msgstr "Topptekst"
+
+#: inc/theme_options.php:433 inc/theme_options.php:912
+msgid "Text"
+msgstr "Tekst"
+
+#: inc/theme_options.php:454
+msgid "Copyright Background Color"
+msgstr "Copyright bakgrunnsfarge"
+
+#: inc/theme_options.php:464
+msgid "Copyright Text Color"
+msgstr "Copyright tekstfarge"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/theme_options.php:475
+msgid "Show Logo Image"
+msgstr "Vis logobilde"
+
+#: inc/theme_options.php:483
+msgid "Upload Logo"
+msgstr "Last opp logo"
+
+#: inc/theme_options.php:484
+msgid "Site title will be displayed if no image uploaded."
+msgstr "Nettstedtittel vises hvis ingen bilder er lastet opp."
+
+#: inc/theme_options.php:484
+msgid "Site title"
+msgstr "Sidetittel"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: inc/theme_options.php:494 inc/theme_options.php:503
+#: inc/theme_options.php:512
+msgid "Logo Text"
+msgstr "Logotekst"
+
+#: inc/theme_options.php:523
+msgid "Manage Site Title"
+msgstr "Administrer nettsidetittel"
+
+#: inc/theme_options.php:524 inc/theme_options.php:534
+msgid "Manage Logo Text"
+msgstr "Administrer logotekst"
+
+#: inc/theme_options.php:524
+msgid "To change the font style of logo"
+msgstr "Slik endrer du skrifttypestilen på logoen"
+
+#: inc/theme_options.php:524
+msgid "Typography > Header Font Style > Logo Font Style"
+msgstr "Typografi > Skrifttypestil for topptekst > Skrifttypestil for logo"
+
+#: inc/theme_options.php:535
+msgid "Manage Header Menu"
+msgstr "Administrere topptekstmeny"
+
+#: inc/theme_options.php:535
+msgid "To change the font style of header"
+msgstr "Slik endrer du skrifttypen på toppteksten"
+
+#: inc/theme_options.php:535
+msgid "Typography > Header Font Style > Header Menu Font Style"
+msgstr "Typografi > Skrifttypestil topptekst > Skrifttypestil topptekstmeny"
+
+#: inc/theme_options.php:543
+msgid "Upload Favicon"
+msgstr "Last opp Favicon"
+
+#: inc/theme_options.php:543
+msgid "Upload favicon of your website."
+msgstr "Last opp favicon for nettstedet."
+
+#: inc/theme_options.php:543
+msgid "Customize > Site Identity > Site Icon"
+msgstr "Tilpass > Nettsted Identitet > Site Icon"
+
+#: inc/theme_options.php:552
+msgid "Font Families"
+msgstr "Skrifttypefamilier"
+
+#: inc/theme_options.php:553
+msgid "Add fonts in your website."
+msgstr "Legg til skrifttyper på nettsiden."
+
+#: inc/theme_options.php:553
+msgid "The newly added font families will appear after saving the options."
+msgstr "Den nye skrifttypefamilien vises etter at du har lagret."
+
+#: inc/theme_options.php:578
+msgid "Font Styles"
+msgstr "Skrifttypestiler"
+
+#: inc/theme_options.php:579
+msgid ""
+"Theme's default font properties can be changed from the section specific "
+"tabs given below."
+msgstr ""
+"Temaets standard skrifttypeegenskaper kan endres fra de inndelingsspesifikke "
+"fanene nedenfor."
+
+#: inc/theme_options.php:601 inc/theme_options.php:620
+#: inc/theme_options.php:639
+msgid "Logo Font Style"
+msgstr "Logo-skrifttype"
+
+#: inc/theme_options.php:602
+msgid "This will change the typography of logo text only."
+msgstr "Dette endrer bare typografien på logoteksten."
+
+#: inc/theme_options.php:658
+msgid "Header Menu Font Style"
+msgstr "Skrifttype for overskriftsmeny"
+
+#: inc/theme_options.php:659
+msgid "This will change the typography of navigation menu in header."
+msgstr "Dette endrer bare typografien på navigasjonsmenyen."
+
+#: inc/theme_options.php:685
+msgid "This will change the typography of content areas only."
+msgstr "Dette endrer bare typografien på innholdsområdet."
+
+#: inc/theme_options.php:704
+msgid "H1 Font Style"
+msgstr "H1 Skriftstil"
+
+#: inc/theme_options.php:722
+msgid "H2 Font Style"
+msgstr "H2 Skriftstil"
+
+#: inc/theme_options.php:740
+msgid "H3 Font Style"
+msgstr "H3 Skriftstil"
+
+#: inc/theme_options.php:758
+msgid "H4 Font Style"
+msgstr "H4 Skriftstil"
+
+#: inc/theme_options.php:776
+msgid "H5 Font Style"
+msgstr "H5 Skriftstil"
+
+#: inc/theme_options.php:794
+msgid "H6 Font Style"
+msgstr "H6 Skriftstil"
+
+#: inc/theme_options.php:821
+msgid "Section Titles Font Style"
+msgstr "Inndelingstittel skrifttypestil"
+
+#: inc/theme_options.php:822
+msgid "This will change the typography of section titles on pages."
+msgstr "Dette endrer typografien til inndelingstitlene på sidene."
+
+#: inc/theme_options.php:894
+msgid "This will change the typography of the Footer."
+msgstr "Dette endrer typografien på bunnteksten."
+
+#: inc/theme_options.php:931
+msgid "Blog Listing - Page Layout"
+msgstr "Bloggoppføring - Sideoppsett"
+
+#: inc/theme_options.php:932
+msgid ""
+"This will change the visibility and position of sidebar on the blog post "
+"listing pages."
+msgstr ""
+"Dette endrer synligheten og plasseringen av sidestolpen på sider med lister "
+"over bloggposter."
+
+#: inc/theme_options.php:956
+msgid "Single Post - Page Layout"
+msgstr "Enkelt innlegg - Sideoppsett"
+
+#: inc/theme_options.php:957 inc/theme_options.php:982
+msgid ""
+"This will change the visibility and position of sidebar on the post details "
+"pages."
+msgstr ""
+"Dette endrer synligheten og plasseringen av sidestolpen på sidene med "
+"innleggsdetaljer."
+
+#: inc/theme_options.php:957 inc/theme_options.php:982
+msgid "Note: You can override this setting on a specific post."
+msgstr "Merk: Du kan overstyre denne innstillingen på et bestemt innlegg."
+
+#: inc/theme_options.php:981
+msgid "Single Page - Page layout"
+msgstr "Enkelt side - sideoppsett"
+
+#: inc/theme_options.php:1007
+msgid "Social Links"
+msgstr "Sosiale lenker"
+
+#: inc/theme_options.php:1008
+msgid "Enter your social profile links here:"
+msgstr "Skriv inn  lenker til profiler på sosiale medier her:"
+
+#: inc/theme_options.php:1020
+msgid "Social Profile Icon"
+msgstr "Sosial profil-ikon"
+
+#: inc/theme_options.php:1174
+msgid "Social Profile Link"
+msgstr "Sosial profil-lenke"
+
+#: inc/theme_options.php:1184
+msgid "Footer Color"
+msgstr "Bunntekstfarge"
+
+#: inc/theme_options.php:1192
+msgid "Copyright Text"
+msgstr "Copyright-tekst"
+
+#: inc/theme_options.php:1199
+msgid "Manage Footer Widgets"
+msgstr "Administrer bunnekst-widgets"
+
+#: inc/theme_options.php:1200
+msgid "Edit Footer Widgets"
+msgstr "Rediger bunntekst-widgets"
+
+#: inc/theme_options.php:1209
+msgid "Custom CSS"
+msgstr "Egendefinert CSS"
+
+#: inc/theme_options.php:1210
+msgid "The rules added here will be applied as additional CSS."
+msgstr "Reglene lagt til her gjelder som ekstra CSS."
+
+#: inc/theme_options.php:1217
+msgid "Head Scripts"
+msgstr "Hovedscript"
+
+#: inc/theme_options.php:1218
+msgid "Scripts to be inserted in \"head\" tag."
+msgstr "Scrip for innsetting i \"head\"-taggen."
+
+#: inc/theme_options.php:1226
+msgid "Footer Scripts"
+msgstr "Bunntekst-script"
+
+#: inc/theme_options.php:1227
+msgid "Scripts to be inserted after footer."
+msgstr "Script som kan settes inn etter bunnteksten."
+
+#: inc/theme_options.php:1235
+msgid "404 Page Content"
+msgstr "404 Sideinnhold"
+
+#: inc/widgets.php:14
+msgid "Social Icons"
+msgstr "Delelinker"
+
+#: inc/widgets.php:15
+msgid "Displays social icons list."
+msgstr "Vist liste med sosiale ikoner."
+
+#: inc/widgets.php:81
+msgid "Social Icon Default Colors"
+msgstr "Standardfarge sosiale ikoner"
+
+#: inc/widgets.php:85
+msgid "Icon Color"
+msgstr "Ikon-farge"
+
+#: inc/widgets.php:89
+msgid "Icon Hover Color"
+msgstr "Ikon pekefarge"
+
+#: inc/widgets.php:94
+msgid "If colors are not set, skin colors will be applied."
+msgstr "Hvis fargen ikker er angitt, brukes standard farge."
+
+#: inc/widgets.php:99
+msgid "Manage Social Icons"
+msgstr "Administrer sosiale ikoner"
+
+#: inc/widgets.php:137
+msgid "Icon Box"
+msgstr "Ikonboks"
+
+#: inc/widgets.php:138
+msgid "Display information with icon."
+msgstr "Vis informasjon med ikon."
+
+#: inc/widgets.php:192
+msgid "Upload Icon"
+msgstr "Last opp ikon"
+
+# If you choose the option to have a floating cart, the cart is visible on all pages. It sort of floats above the page and stays at the same place whether you scroll up and down.
+#
+# Use the slider to determine the vertical position of the cart on your page.
+#
+# ____________________________
+# Reference for developers:
+#
+#: inc/widgets.php:205
+msgid "Top"
+msgstr "Øverst"
+
+#: inc/widgets.php:211
+msgid "Icon Size"
+msgstr "Ikonstørrelse"
+
+#: search.php:23
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Søkeresultater"
+
+#: template-parts/content-blog.php:47
+msgid "Read More"
+msgstr "Les mer"
+
+#: template-parts/content-none.php:13
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: template-parts/content-none.php:17
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Det ser ut som om vi ikke greier å finne det du ser etter. Kanskje hjelper "
+"det å søke."
+
+#: template-parts/content-single.php:53
+msgid "Previous"
+msgstr "Forrige"
+
+#: template-parts/content-single.php:54
+msgid "Next"
+msgstr "Neste"
+
+# These keys are terms that are used to describe elements and settings in a WordPress theme. Try to translate them as generic as possible, so they can be reused.
+#
+# _______________________________________________________________
+#: template-parts/section-enroll-form.php:40
+msgid "Courses"
+msgstr "Kurs"

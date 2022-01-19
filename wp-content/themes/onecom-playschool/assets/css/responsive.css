@@ -1,0 +1,143 @@
+/* Responsive Queries in Descending Order */
+    
+/* Only for display more than 768px */
+@media (min-width: 992px) {
+    .oct-recent-post-content {
+        padding-left: 0px;
+    }
+    .oct-recent-posts .mejs-controls {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .bg-icon-left,
+    .bg-icon-right {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    h1{
+        font-size: 2.6rem !important;
+    }
+    h2{
+        font-size: 2.6rem !important;
+    }
+    h3{
+        font-size: 1.6rem !important
+    }
+    header.site-header {
+        height: auto;
+    }
+    .section-title h2 {
+        font-size: 2.6rem !important;
+        min-width: auto;
+    }
+    .oct-head-bar {
+        min-height: auto;
+    }
+    .oct-team .person-box,
+    .about-section figure {
+        text-align: center;
+    }
+    .section-stats {
+        height: auto;
+        text-align: center;
+        padding: 30px;
+    }
+    .oct-history .timeline-box {
+        padding-left: 0;
+    }
+    figure {
+        padding-bottom: 30px;
+    }
+    .mobile-only {
+        display: inline-block;
+    }
+    .desktop-only {
+        display: none;
+    }
+    .oct-head-bar {
+        padding-top: 20px;
+    }
+    .site-logo, .menu-toggle {
+        vertical-align: middle;
+        -ms-word-break: break-all;
+        word-break: break-all;
+    }
+    .oct-head-bar .oct-site-logo {
+        margin: 20px 0;
+    }
+    .no-scroll {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    section {
+        margin: 20px 0;
+    }
+    .container,
+    .home-banner .container,
+    .oct-home-content {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .oct-home-content {
+        padding-bottom: 0;
+    }
+    .oct-features .features-col {
+        padding: 20px;
+    }
+    .home-banner .container {
+        text-align: center !important;
+    }
+    .home-banner .banner-caption h2 {
+        font-size: 40px;
+    }
+    .home-banner .banner[role="banner"] {
+        background-position: 50% 0%;
+    }
+    .banner.home-banner {
+        height: 390px;
+    }
+    #oct-site-footer .widget{
+        margin-bottom: 40px;
+    }
+    #oct-site-footer .widget_nav_menu ul li:last-child {
+        padding-bottom: 0;
+    }
+    .oct-gallery .section-title {
+        margin-bottom: 0px;
+    }
+    .oct-history .timeline-box {
+        padding-left: 0;
+    }
+    .section-stats {
+        text-align: center;
+    }
+    .section-stats .stats-count {
+        padding-top: 20px;
+    }
+    .section-stats .stats-title {
+        padding-bottom: 20px;
+    }
+    .oct-team {
+        text-align: center;
+    }
+    .oct-enroll .section-box {
+        padding-right: 0;
+    }
+    .oct-form {
+        padding-left: 0px;
+    }
+    .oct-form .form-box {
+        padding: 20px;
+    }
+}

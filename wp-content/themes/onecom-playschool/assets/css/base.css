@@ -1,0 +1,1541 @@
+/*!
+ * Base Style for Theme - This contains the main CSS for theme.
+ */
+
+/*!
+ * ############# Global CSS #############
+ */
+ .container {
+    display: block;
+    margin: 0 auto;
+    width: 1080px;
+    max-width: 100%;
+}
+/* @media (min-width: 1200px) {
+    .container {
+         max-width: 1140px;
+    }
+}  */
+
+body {
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased; /* Else font seems bolder than wsb */
+}
+
+body,
+.one-icon-box h3.one-icon-box-title{
+    font-family: "Poppins", "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+/** Add only in preview, else admin menu creates issue **/
+/* html {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+ } */
+
+.home-banner h2,
+section h2,
+section h3,
+.widget h3 {
+    font-family: "Amatic SC", "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.post,
+.page {
+    margin: 0;
+}
+
+/*!
+ * ############# Customize edit button #############
+ */
+.onecom_edit_section_icon {
+    display: block;
+    position: absolute;
+    right: -40px;
+    top: -20px;
+    z-index: 99990;
+}
+.onecom_edit_section_icon a {
+    display: block;
+    /* font-size: 0; */
+    /* line-height: 1!important; */
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    background-color: #000;
+    opacity: .2;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    -webkit-box-shadow: 0 2px 1px rgba(46,68,83,.15);
+    box-shadow: 0 0 2px rgba(0,0,0,.5);
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+.onecom_edit_section_icon a.customize-unpreviewable {
+    cursor: pointer!important;
+}
+.onecom_edit_section_icon svg {
+    vertical-align: initial;
+}
+
+/*!
+ * ############# Typography Default #############
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight:400;
+    font-style: normal;
+}
+h1{
+    font-size: 72px;
+}
+h2{
+    font-size: 72px;
+    font-weight: 700;
+}
+h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 16px;
+}
+h6{
+    font-size: 14px;
+}
+
+/*!
+ * ############# Colors Default #############
+ */
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus,
+input,
+input:hover,
+input:active,
+input:visited,
+input:focus,
+textarea,
+textarea:hover,
+textarea:focus{
+    text-decoration: none;
+    outline:none;
+}
+a, a:active, a:focus, a:visited {
+    color: #1291B2;
+}
+a:hover {
+    color: #8ec2d2;
+    transition: color 0.3s;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+}
+/*!
+ * ############# Basic Theme defaults & Resetting #############
+ */
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none
+}
+u, ins {
+    text-decoration: underline;
+}
+figure {
+    margin: 0px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/*.btn {
+    right: 0;
+    top: 5px;
+    border-radius:1px;
+}*/
+article ol,
+article ul {
+    margin: .7em 0 .7em 1.143em;
+}
+.widget:after {
+    clear: both;
+    content:" ";
+    display:block;
+}
+ol.list-inline,
+ul.list-inline {
+    margin: 0;
+}
+.oct-card-text img.alignleft,
+.oct-main-content img.alignleft
+{
+    margin: 16px 16px 16px 0;
+}
+thead th {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    color: #336B6B;
+    padding: 10px;
+    text-align: left;
+}
+tbody td {
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+}
+section.oct-head-bar,
+section.oct-header-menu,
+section.home-banner {
+    margin: 0px;
+}
+.section-bg {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: scroll;
+    color: #ffffff;
+}
+.section-bg h2{
+    color: #ffffff;
+}
+
+/* @todo enqueue dashicon before base and remove important here */ 
+.dashicons, .dashicons-before:before {
+    display: inline-block !important;
+    line-height: initial !important;
+    vertical-align: text-top !important;
+    font-size: 18px !important;
+}
+
+/* #################### Website Header #################### */
+.oct-head-bar {
+    background-color: #ffffff;
+    padding: 32px 0 32px 0;
+}
+.oct-head-bar p,
+.oct-head-bar div {
+    line-height: 1.2;
+}
+.oct-site-logo h1 a,
+.oct-site-logo h2 a,
+.oct-site-logo h1 a:visited,
+.oct-site-logo h2 a:visited {
+    color: #efefef;
+}
+.oct-site-logo h1 a:hover,
+.oct-site-logo h2 a:hover {
+    color: #fafafa;
+}
+.oct-head-bar h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+}
+.oct-head-bar .widget {
+    /* padding-bottom: 20px; */
+    margin: 0;
+}
+.oct-head-bar .widget:last-child {
+    padding-bottom: 0;
+}
+header{
+    position:relative;
+    width:100%;
+}
+.oct-head-bar .oct-social-icons svg * {
+    fill: #fafafa;
+}
+.oct-header-menu {
+    background: rgba(19,145,178,1);
+}
+.oct-site-logo img {
+    max-width: 100%;
+    max-height: 130px;
+    width: auto;
+}
+.oct-head-bar .oct-site-logo {
+    float: left;
+}
+.oct-head-bar .oct-header-widget {
+    float: right;
+}
+.oct-head-bar .one-icon-box-top.icon-align-left .one-icon-box-main-icon {
+    vertical-align: top;
+}
+.oct-head-bar .one-icon-box-top.icon-align-left .one-icon-box-main-icon img {
+    margin-top: 20px;
+}
+
+/* #################### Header Icon Box #################### */
+
+.oct-head-bar .logo-text-1 {
+    font-weight: bold;
+    color: rgba(19,145,178,1);
+    letter-spacing: 0.2em;
+    font-size: 32px;
+}
+.oct-head-bar .logo-text-2 {
+    font-weight: bold;
+    color: rgba(19,145,178,1);
+    letter-spacing: 0.2em;
+    font-size: 16px;
+}
+.logo-text-2::after {
+    content: "";
+    width: 42px;
+    background-color: rgba(166,212,227,1);
+    border-width: 1px 1px 1px 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    height: 6px;
+    margin-top: 7px;
+    display: block;
+    position: relative;
+}
+.oct-head-bar .logo-text-3 {
+    font-weight: bold;
+    color: rgba(108,108,110,1);
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+/* #################### Header Icon Box #################### */
+.oct-header-info-block {
+    display: inline-flex;
+    margin-top: 8px;
+}
+.oct-head-bar .one-icon-box img {
+    max-width: 40px;
+    margin-right: 17px;
+}
+.oct-head-bar .one-icon-box h4.one-icon-box-title {
+    font-weight: bold;
+    font-family: Amatic SC, sans-serif;
+    font-size: 36px;
+}
+.oct-head-bar .one-icon-box .one-icon-box-description-inner {
+    color: #acacac;
+    line-height: 1.6;
+}
+.oct-head-bar .one-icon-box-top.icon-align-left .one-icon-box-description {
+    padding-left: 0;
+}
+
+/* #################### Header Title Section #################### */
+.page-header {
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    min-height: 204px;
+    padding-top: 66px;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+
+/************* Primary Menu ******************/
+#primary-nav{
+    text-align: right;
+    font-family: "Poppins", "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+}
+#primary-nav ul{
+    padding:0;
+    color:#ffffff;
+    margin: 0 auto;
+}
+#primary-nav ul {
+    list-style: none;
+}
+#primary-nav ul:after,
+#primary-nav ul:before,
+#primary-nav:after,
+#primary-nav:before{
+    display: block;
+    content: '';
+    clear: both;
+}
+#primary-nav > ul > li,
+#primary-nav > div > ul > li{
+    display: block;
+    position: relative;
+    float: left;
+    z-index: 10;
+    border-right: 1px solid #4aabc7;
+}
+#primary-nav > ul > li:last-child,
+#primary-nav > div > ul > li:last-child{ 
+    border: none;
+}
+#primary-nav ul li a{
+    color:#ffffff;
+    font-weight: normal;
+    padding:24px 50px 25px 50px;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    line-height: 1.2;
+    transition: background-color .2s ease-out,border .2s ease-out,color .2s ease-out;
+}
+#primary-nav ul li.current_page_item>a,
+#primary-nav ul li.current-menu-parent>a,
+#primary-nav ul li.current-menu-item>a,
+#primary-nav ul li:hover > a {
+    color: #fff;
+    background: #8ec2d2;
+}
+#primary-nav ul li ul li a{
+    background-color: #000;
+    text-align: left;
+}
+#primary-nav ul li ul li.current_page_item a,
+#primary-nav ul li ul li:hover > a{
+    color: #fff;
+    background: #8ec2d2;
+}
+#primary-nav ul li ul{
+    color: #fff;
+    display: none;
+    width:200px;
+    z-index: 10;
+}
+#primary-nav ul li ul li{
+    display: list-item;
+    width:100%;
+}
+#primary-nav ul li ul{
+    position: absolute;
+}
+#primary-nav ul li:hover > ul,
+#primary-nav ul li ul:hover{
+    display: block;
+    color: #fff;
+    background: #8ec2d2;
+}
+#primary-nav ul li{
+    /* position: relative; - submenu overlap fix when long menu items rendered in second rows */
+    position: initial
+}
+#primary-nav ul.sub-menu ul{
+    left:100%;
+    top: 0;
+}
+#primary-nav>a>small {
+    color: #fff;
+    margin: 10px 0;
+    display: inline-block;
+}
+/* Added dropdown icon for submenu & nested submenu */
+#primary-nav li.menu-item-has-children > a::after {
+    content: "\f347";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 20px/1;
+    font-family: 'dashicons';
+    vertical-align: top;
+    margin-left: 0.2rem;
+}
+#primary-nav li li.menu-item-has-children > a::after {
+    content: "\f345";
+    -webkit-font-smoothing: antialiased;
+    font: normal 20px/1;
+    font-family: 'dashicons';
+    vertical-align: top;
+    float: right;
+}
+/* Mobile Menu */
+#sticky_menu_wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+body.admin-bar #sticky_menu_wrapper{
+    top:47px;
+}
+#sticky_menu {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height:100%;
+    padding: 0;
+    transition: all 0.3s ease 0s;
+    z-index: 1;
+    overflow-y: auto;
+}
+#sticky_menu li {
+    list-style: none;
+    position: relative;
+}
+#sticky_menu li > i {
+    position: absolute;
+    height: 42px;
+    width: 43px;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    border: 1px solid #aaa;
+    background-image: url(../images/close.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    background-size: 22px;
+    /*transition: all 0.3s;*/
+}
+#sticky_menu li.current-menu-ancestor > i,
+#sticky_menu li.expanded > i{
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+}
+#sticky_menu li.menu-item-has-children > a {
+    padding-right: 54px !important;
+    word-break: break-all;
+}
+#sticky_menu li > a {
+    display: block;
+    padding: 12px 20px;
+    line-height: 1;
+    color: inherit;
+    font-size: 18px;
+}
+#sticky_menu li.current-menu-item > a{
+    background-color: #000;
+    color:#fff;
+}
+#sticky_menu li > a:hover, #sticky_menu li.current-menu-ancestor > a {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+#sticky_menu li.current-menu-ancestor > .sub-menu {
+    display: block;
+}
+#sticky_menu .sub-menu{
+    padding: 0;
+    display: none;
+    box-shadow: 0 0 9px #ddd inset;
+    -webkit-box-shadow: 0 0 9px #ddd inset;
+}
+
+#sticky_menu .sub-menu li>a {
+    padding: 12px 12px 12px 40px;
+}
+#sticky_menu .sub-menu .sub-menu li>a{
+    padding: 12px 12px 12px 60px;
+}
+
+.menu-toggle {
+    background-image: url(../images/menu.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    font-size: 0;
+    border: medium none;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    height: 28px;
+    margin: 0;
+    padding: 10px 21px;
+    width: 42px;
+    box-shadow: none;
+    outline: none;
+    -moz-outline: none;
+    -webkit-outline: none;
+    cursor: pointer;
+}
+.menu-toggle:hover,
+.menu-toggle:focus{
+    outline: none;
+    -moz-outline: none;
+    -webkit-outline: none;
+}
+#page{
+    transition: all 0.3s ease 0s;
+    -webkit-transition:  all 0.3s ease 0s;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 10;
+    width:100%;
+    overflow-x: hidden;
+    min-width:300px;
+}
+#page.shifted{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin-left: 250px !important;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+/* #################### Buttons #################### */
+.btn {
+    border-radius: 0;
+    font-size: 14px;
+}
+.oct-btn-primary,
+.oct-btn-primary:visited,
+.oct-btn-primary:active {
+    color: #fff;
+    background-color: #1391b2;
+    /* border: 1px solid #1391b2; */
+    padding: 12px 20px;
+    min-width: 116px;
+}
+.oct-button-primary:focus {
+    box-shadow: 0 0 0 1px #1391b2;
+}
+.oct-btn-primary:hover
+{
+    background-color: #4BA8C2;
+    color: #ffffff;
+}
+
+.oct-btn-secondary,
+.oct-btn-secondary:visited,
+.oct-btn-secondary:active {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 12px 20px;
+    min-width: 116px;
+}
+.oct-button-secondary:focus {
+    background-color: #d9ecf1;
+    color: #1a1b1c;
+}
+.oct-btn-secondary:hover,
+.oct-main-content .oct-btn-secondary:hover
+{
+    background-color: #d9ecf1;
+    color: #1a1b1c;
+}
+
+input[type="submit"] {
+    color: #fff;
+    background-color: #4aabc7;
+    border: none;
+    padding: 7px 10px;
+    min-width: 55px;
+    font-size: 14px;
+    line-height: 1.2;
+    border-radius: 0;
+}
+input[type="submit"]:focus {
+    box-shadow: 0 0 0 1px #1391b2;
+}
+input[type="submit"]:hover
+{
+    background-color: #4BA8C2;
+    color: #ffffff;
+}
+
+/************* Section: Home Header Banner ******************/
+.banner[role="banner"]{
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:50% 100%;
+
+}
+.banner[role="banner"] *{
+    transition:0.3s all;
+}
+.banner.home-banner{
+    height: 478px;
+}
+.banner.full_view{
+    min-height:100vh;
+}
+.banner.auto_height{
+    height:auto;
+    padding: 2rem 0;
+}
+.banner-content {
+    display: flex;
+    height: 100%;
+}
+.banner-content.align-left{
+    justify-content: flex-start;
+}
+.banner-content.align-center{
+    justify-content: center;
+}
+.banner-content.align-right{
+    justify-content: flex-end;
+}
+.banner-caption h2{
+    margin-top: 75px;
+    font-style: normal;
+    font-size: 72px;
+    font-weight: bold;
+    /*word-wrap: break-word;
+    word-break: break-word;*/
+}
+.banner-caption p {
+    margin-bottom: 0px;
+    line-height: 25px;
+}
+.banner-caption .btn {
+    margin-top: 30px;
+}
+
+/* #################### Website Footer #################### */
+#oct-site-footer {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: scroll;
+    background-color: #4aabc7;
+    padding-top: 40px;
+    color: #ffffff;
+    font-size: 12px;
+}
+#oct-site-footer a, 
+#oct-site-footer a:visited {
+    color: #ffffff;
+}
+#oct-site-footer a:hover,
+#oct-site-footer a:active,
+#oct-site-footer a:focus  {
+    text-decoration: underline;
+}
+#oct-copyright {
+    background-color: #4aabc7;
+    color: #ffffff;
+    border-top: 1px solid #6db9ce;
+    padding: 20px 0;
+}
+#oct-site-footer .bg-with-black {
+    position: relative;
+}
+#oct-site-footer .oct-social-icons svg * {
+    fill: #ffffff;
+}
+#oct-site-footer .gallery {
+    margin-bottom: 0px;
+}
+#oct-site-footer > img {
+    margin: 0 0 7px;
+}
+#oct-site-footer ul {
+    list-style: outside none none;
+    padding-left: 0;
+    margin-left: 0px;
+}
+#oct-site-footer ul i {
+    padding-right: 10px;
+}
+#oct-site-footer h3 {
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin: 0 0 20px;
+    font-size: 48px;
+}
+#oct-site-footer .widget {
+    clear: both;
+    margin: 0 0 20px 0;
+}
+#oct-site-footer .widget_nav_menu ul {
+    display: inline-block;
+}
+#oct-site-footer .widget_nav_menu ul ul {
+    display: block;
+}
+#oct-site-footer .widget_nav_menu ul li {
+    padding-bottom: 22px;
+    float: left;
+    list-style: outside none none;
+    width: 50%;
+}
+#oct-copyright p {
+    color: #cccccc;
+}
+
+/* #################### Social Icons #################### */
+.oct-social-icons ul {
+    margin: 0;
+}
+.oct-social-icons li {
+    float: left;
+    list-style: none;
+    margin-right: 22px;
+}
+.oct-social-icons li:last-child {
+    margin-right: 0;
+}
+.oct-social-icons a:hover svg {
+    opacity: 0.7;
+}
+.oct-social-icons svg {
+    display: block;
+    width: 34px;
+    height: 34px;
+}
+.oct-social-icons svg * {
+    fill: #3e454c;
+}
+
+/* #################### Icon Box Widget #################### */
+.one-icon-box,
+.one-icon-box .one-icon-box-main-icon {
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
+    height: auto;
+}
+.one-icon-box .one-icon-box-main-icon.icon-active {
+    margin-top: -3px
+}
+.one-icon-box-description {
+    margin-top: 0.5em;
+}
+.one-icon-box-top.icon-align-left,
+.one-icon-box-top.icon-align-right {
+    display: table;
+}
+.one-icon-box-top.icon-align-left .one-icon-box-description {
+    padding-left: 22px;
+}
+.one-icon-box-top.icon-align-left .one-icon-box-description,
+.one-icon-box-top.icon-align-left i.one-icon-box-icon,
+.one-icon-box-top.icon-align-left .one-icon-box-main-icon {
+    display: table-cell;
+    vertical-align: top;
+}
+.one-box-icon-with-background i.one-icon-box-icon,
+.one-box-icon-with-background img.one-icon-box-image {
+    padding: 0.4em;
+    border-style: solid
+}
+.one-icon-box-top.icon-align-left .one-icon-box-main-icon img,
+.one-icon-box-top.icon-align-right .one-icon-box-main-icon img {
+    max-width: none;
+}
+
+section.oct-contact-section .one-icon-box-top .one-icon-box-main-icon {
+    vertical-align: text-top;
+}
+.one-icon-box h4.one-icon-box-title {
+    font-size: 12px;
+    font-weight: 700;
+}
+.oct-contact-section .one-icon-box {
+    margin-bottom: 40px;
+}
+
+/* #################### @todo check - Icon Box Widget #################### */
+.oct-home-content {
+    padding: 50px;
+    
+}
+/* @todo if required else delete */
+.post-edit-link {
+    display: none;
+}
+
+/* ####################  Section Common Content ####################### */
+section {
+    margin: 50px 0;
+    background-color: #fff;
+}
+
+/* section .oct-page-content-box,
+section .featured-content {
+    line-height: 1.8;
+} */
+
+section p,
+section div {
+    line-height: 1.8;
+}
+
+.section-content {
+    margin: 10px 0px 30px 0px;
+}
+
+/* ####################  Features Section ####################### */
+.oct-features .features-col {
+    padding: 0 24px;
+}
+.oct-features .featured-block {
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    margin-top: 24px;
+}
+.oct-features .bg-icon-right {
+    background-image: url('../images/icon-bubble.png');
+    width: 46px;
+    height: 33px;
+    position: absolute;
+    top: 0px;
+    right: 107px;
+    padding: 3px;
+    background-repeat: no-repeat;
+}
+.oct-features .bg-icon-left {
+    background-image:url('../images/icon-bubble-reversed.png');
+    width: 46px;
+    height: 33px;
+    position: absolute;
+    top: 0px;
+    left: 109px;
+    padding: 3px;
+    background-repeat: no-repeat;
+}
+.oct-features .bg-icon-none {
+    display: none;
+}
+.oct-features .icon-text {
+    position: relative;
+    display: inline;
+    color: white;
+    line-height: 1;
+    text-align: center;
+}
+.oct-features .featured-thumb {
+    height: 90px;
+    width: 90px;
+    background-color: #4AABC7;
+    border-radius: 50%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.oct-features h3 {
+    margin: 15px auto;
+}
+.oct-features .feature-content {
+    margin-top: 15px;
+    padding: 0 5px;
+}  
+
+/* ####################  Facilities Section ####################### */
+.oct-facility {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: scroll;
+    /* min-height: 838px; */
+    padding: 100px 0;
+}
+.oct-facility h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.oct-facility .section-columns {
+    margin: 20px 0 50px 0;
+}
+.oct-facility .section-header {
+    min-height: 32px;
+}
+.oct-facility .section-box {
+    padding: 30px 20px;
+    background-color: #ffffff;
+    margin: 20px 8px;
+}
+.oct-facility .section-box-icon img {
+    max-height: 47px;
+}
+.oct-facility .section-box-title {
+    margin: 25px 0;
+}
+.oct-facility .section-header::after {
+    clear: both;
+    float: none;
+}
+.oct-facility .section-box-label {
+    font-weight: bold;
+    color: #4aabc7;
+    letter-spacing: 0.1em;
+    font-size: 36px;
+    line-height: 1;
+}
+
+/* ####################  Testimonial Section ####################### */
+.oct-testimonial {
+    color: #ffffff;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: scroll;
+    min-height: 318px;
+    margin: 100px 0;
+}
+.oct-testimonial h2 {
+    margin: 30px 0;
+    color: #ffffff;
+}
+
+/* ####################  Gallery Section ####################### */
+.oct-gallery .section-title {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.oct-gallery .gallery-box {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.oct-gallery .gallery-item {
+    padding: 10px;
+}
+
+/* ####################  Event Section ####################### */
+.oct-event .section-content-box {
+    margin-bottom: 40px;
+}
+.oct-event .section-content {
+    padding-left: 30px;
+}
+.oct-event .section-button-box {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.oct-event .featured-content {
+    margin: 16px 0;
+}
+.oct-event .featured-media .img-text {
+    position: absolute;
+    top: 0px;
+    /* left: 15px; */
+    background-color: #4aabc7;
+    padding: 10px 8px;
+    margin: 0;
+    color: white;
+    line-height: 1;
+    width: 76px;
+    min-height: 50px;
+    text-align: center;
+}
+.oct-event .featured-media span:nth-child(1) {
+    font-size: 30px;
+    line-height: 1;
+}
+.oct-event .featured-media span:nth-child(2) {
+    font-size: 20px;
+    line-height: 1;
+}
+.home .oct-event h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.oct-event ul.content-meta {
+    margin-left: 0;
+    padding-bottom: 0;
+}
+.oct-event .content-meta li {
+    list-style: none;
+    margin: 10px 0;
+}
+.oct-event .content-meta li span {
+    padding-right: 10px;
+}
+
+/* ####################  Page Section ####################### */
+.oct-main-section .oct-page-content-box {
+    padding: 0px 20px 0 40px;
+}
+.oct-main-section .oct-page-content h3{
+    margin-bottom: 40px;
+}
+/* Remove top Margin from first h3 when multiple h3 detected as siblings (in about/others page) */
+.oct-main-section .oct-page-content h3 + h3 {
+    margin-top: -40px;
+}
+.oct-main-section .oct-page-content p {
+    margin-bottom: 25px;
+}
+.oct-main-section .oct-button-box {
+    margin-top: 45px;
+}
+
+/* ####################  About Page Section ####################### */
+.about-section .oct-page-content-box {
+    padding: 55px 20px 0 40px;
+}
+
+/* #################### History & Timeline Section #################### */
+.oct-history {
+    margin-top: 80px;
+}
+.oct-history .section-title {
+    margin-bottom: 70px;
+}
+.oct-history .history-content figure {
+    margin-bottom: 40px;
+}
+.oct-history .timeline-box {
+    padding-left: 93px;
+}
+.oct-history ul.timeline-list {
+    list-style-type: none;
+    padding-left: 10px;
+    position: relative;
+}
+.oct-history ul.timeline-list > li {
+    margin: 20px 0;
+    list-style: none;
+    margin: auto;
+    margin-left: 10px;
+    min-height: 50px;
+    /* background: rgba(255,255,0,0.1); */
+    border-left: 1px dashed #000000;
+    padding: 0 0 10px 65px;
+    position: relative;
+}
+.oct-history ul.timeline-list > li::before {
+    position: absolute;
+    left: -36px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    z-index: 400;
+    padding-top:21px;
+    transition: all 500ms ease-in-out;
+    background-color: #4AABC7;
+    color: #ffffff;
+    text-align: center;
+    content: attr(title);
+    font-size: 18px;
+}
+.oct-history ul.timeline-list > li:last-child {
+    border-left: 0;
+}
+
+/* #################### Stats & Counter Section #################### */
+.section-stats {
+    min-height: 350px;
+    height: 350px;
+}
+.section-stats h2,
+.section-stats div {
+    line-height: 1;
+}
+.section-stats .stats-count {
+    font-size: 48px;
+    font-weight: 700;
+}
+.section-stats .stats-title {
+    font-size: 18px;
+}
+
+/* #################### Team & Staff Section #################### */
+.oct-team {
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+.oct-team h3 {
+    font-size: 36px;
+}
+.oct-team .section-title {
+    margin-bottom: 77px;
+}
+.oct-team .person-box {
+    padding: 14px;
+    background-color: #f8f8f8;
+    border-width: 1px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+/* #################### Enroll Section #################### */
+.oct-enroll .enroll-description {
+    margin-bottom: 50px;
+}
+.oct-enroll .circle-box {
+    background-color: #f1f1f1;
+}
+.oct-enroll ul.circle-list {
+    list-style-type: none;
+    position: relative;
+    margin-left: 0px;
+}
+.oct-enroll ul.circle-list > li {
+    padding: 24px 20px 24px 110px;
+    min-height: 140px;
+}
+.oct-enroll ul.circle-list > li:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+.oct-enroll ul.circle-list > li:nth-child(even) {
+    background-color: #f8f8f8;
+}
+.oct-enroll ul.circle-list > li::before {
+    position: absolute;
+    left: 20px;
+    margin-top:20px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    z-index: 400;
+    padding-top: 14px;
+    transition: all 500ms ease-in-out;
+    background-color: #4AABC7;
+    color: #ffffff;
+    content: attr(title);
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.oct-enroll ul.circle-list p {
+    min-height: 100px;
+}
+
+/* This might need to be adjusted with respect to invidual themes*/
+.oct-form input.oc-captcha-val {
+    width: 50px;
+    height: 30px;
+    vertical-align: middle;
+    border: 0;
+    font-size: 16px;
+    outline: none;
+    text-align: center;
+    border-left: 1px solid #ccc;
+    margin-left: 8px;
+}
+.oc_csrf_token{
+    display: none;
+}
+.oc-cap-container{
+    border: 1px solid #BBBBBB;
+    background-color: white;
+}
+.oct-form input.oc-captcha-val::placeholder {
+    color: #333;
+}
+
+/* #################### Section Form #################### */
+.oct-form {
+    margin: 0;
+    padding-left: 15px;
+}
+.oct-form .form-box {
+    background: #1291B2;
+    color: #ffffff;
+    /* margin-top: 7px; */
+    padding: 40px 35px 40px 35px;
+}
+.oct-form fieldset {
+    padding: 0 17px 23px 0;
+}
+.oct-form label {
+    margin-bottom: 3px;
+    font-size: 16px;
+}
+.oct-form .input,
+.oct-form .select,
+select
+{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #BBBBBB;
+    padding: 1px 8px;
+    background: #FFF;
+    font-size: 13px;
+    border-radius: 0;
+}
+.oct-form textarea.input {
+    height: 130px;
+}
+.form-box .form-box_message{
+    font-size: 16px;
+}
+.oct-form .oct-btn-form {
+    float: right;
+}
+
+#searchform {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* #################### Enroll Form Section #################### */
+.oct-enroll .section-box {
+    padding-right: 15px;
+}
+
+/* #################### Contact Page Section #################### */
+.oct-contact-section .contact-map {
+    margin-bottom: 40px;
+}
+
+/* ############# Blog, Single Post or Page Section ############# */
+.single figure {
+    margin-bottom: 20px;
+}
+.oct-main-section .section-content-box {
+    margin-bottom: 40px;
+}
+.oct-main-section .featured-content {
+    padding: 16px 0;
+}
+.oct-post-meta {
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 13px;
+    padding: 8px 0;
+}
+.blog-section .featured-content {
+    padding: 16px 0;
+}
+.blog-section .article-block {
+    margin-bottom: 50px;
+}
+.single .oct-post-content {
+    padding: 16px 0;
+}
+
+/* ############# Main or Blog Sidebar ############# */
+.widget {
+    margin: 24px 0;
+}
+.main-sidebar .widget:first-child {
+    margin-top: 0px;
+}
+.main-sidebar ul {
+    margin-left: 0px;
+}
+.main-sidebar ul li {
+    list-style-type: none;
+}
+.main-sidebar .widget-title {
+    padding-bottom: 12px;
+}
+.main-sidebar .widget-title h3 {
+    margin-bottom: 0px;
+}
+.main-sidebar .widget p,
+.main-sidebar .widget li {
+    padding: 6px 0;
+}
+.main-sidebar .widget table {
+    width: 100%;
+}
+.main-sidebar #wp-calendar {
+    width: 100%; 
+}
+.main-sidebar #wp-calendar caption { 
+    display:none;
+}
+#wp-calendar thead th {
+    padding: 8px;
+    text-align: center;
+    font-size: 10px;
+    background-color: rgba(126, 120, 114, 0.562);
+    color: #fff;
+}
+.main-sidebar #wp-calendar tbody {
+    color: #aaa;
+}
+.main-sidebar #wp-calendar tbody td {
+    background: #f5f5f5;
+    border: 1px solid #fff;
+    text-align: center;
+    padding:8px;
+}
+.main-sidebar #wp-calendar tbody td:hover {
+    background: #fff;
+}
+.main-sidebar #wp-calendar tbody .pad {
+    background: none;
+}
+.main-sidebar #wp-calendar tfoot #next {
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: right;
+}
+.main-sidebar #wp-calendar tfoot #prev {
+    font-size: 10px;
+    text-transform:uppercase; 
+    padding-top: 10px;
+}
+.main-sidebar #wp-calendar tbody a,
+.main-sidebar #wp-calendar tbody a:active,
+.main-sidebar #wp-calendar tbody a:visited {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* #################### Blog Comments & Pagination  ####################### */
+/* Comment Listing */
+.single .form-submit {
+    text-align: left;
+}
+.single .comment-meta {
+    margin-bottom: 1em;
+}
+.single .comment-body  {
+    color: #3e454c;
+    margin-bottom: 2em;
+}
+/* Comment Form */ 
+.oct-main-content .comment-form label {
+    display: block;
+}
+.oct-main-content .comment-form input,
+.oct-main-content .comment-form textarea {
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 500px;
+    max-width: 100%;
+    padding: 6px 12px;
+}
+.oct-main-content .comment-form input {
+    height: 36px;
+}
+.oct-main-content .comment-form .btn {
+    width: initial;
+}
+.oct-main-content .comment-form-cookies-consent input {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    padding-left: 0;
+    margin-right: 5px;
+}
+.oct-main-content .comment-form-cookies-consent label {
+    display: inline-block;
+}
+/* Pagination */ 
+.pagination {
+    margin: 10px 0 30px 0;
+}
+.page-numbers,
+a.page-numbers,
+a.page-numbers:visited {
+    background-color: #2C4A58;
+    color: #fff;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 2px;
+    -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+}
+.prev.page-numbers,
+.prev.page-numbers:visited,
+.next.page-numbers,
+.next.page-numbers:visited
+{
+    background-color: #2C4A58;
+    /*    display: inline-block;*/
+    font-weight: normal;
+    padding: 6px 12px;
+    color: #fff;
+}
+.prev.page-numbers .dashicons,
+.next.page-numbers .dashicons{
+    vertical-align: middle;
+}
+.page-numbers:hover,
+.page-numbers.current,
+.prev.page-numbers:focus,
+.prev.page-numbers:hover,
+.next.page-numbers:focus,
+.next.page-numbers:hover {
+    background-color: #2C4A58;
+    opacity: 0.8;
+    color: #fff;
+}
+.page-numbers:hover {
+    transition: background-color .2s ease-in-out;
+    -webkit-transition: background-color .2s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out;
+}
+/* Previous and Next Posts navigation */
+.post-navigation {
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+.post-navigation .nav-previous a {
+    float: left;
+}
+.post-navigation .nav-next a {
+    float: right;
+}
+.post-navigation:after,
+.post-navigation:before{
+    clear: both;
+    display: block;
+    content: "";
+}
+/* ---- WooCommerce Bootstrap checkout layout conflict fix ----- */
+.woocommerce .col2-set .col-1,
+.woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2,
+.woocommerce-page .col2-set .col-2 {
+    max-width: none;
+}
+/** Block related fixes **/
+.oct-main-content a:not([href]):not([tabindex]).wp-block-button__link,
+a:not([href]):not([tabindex]).wp-block-button__link,
+.wp-block-button__link,
+
+.single .oct-main-content a.wp-block-button__link{
+    background-color: #1391b2;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 17px 20px;
+    transition: 0.3s;
+
+}
+
+.wp-block-button.is-style-squared a.wp-block-button__link {
+    border-radius: 0;
+}
+
+.wp-block-button.is-style-outline a:not([href]):not([tabindex]).wp-block-button__link{
+    color: #1391b2;
+    background-color: #fff;
+}
+
+.wp-block-button.is-style-outline a:not([href]):not([tabindex]).wp-block-button__link:hover {
+    opacity: 0.6;
+}
+
+a:not([href]):not([tabindex]).wp-block-button__link:hover,
+.oct-main-content a.wp-block-button__link:hover,
+.single .oct-main-content a.wp-block-button__link:hover,
+.wp-block-button__link:hover {
+    background-color: #4BA8C2;
+    text-decoration: none;
+    color: #fff;
+}
+/** Block related fixes end **/
